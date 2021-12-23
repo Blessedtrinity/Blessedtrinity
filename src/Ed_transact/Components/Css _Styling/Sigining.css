@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box; 
+}
+
+ html{
+    width: 100%;
+    height: 100%;
+    background-color: #808080;
+}
+
+#container{
+    padding: 3px;
+    outline: none;
+    
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SIGN IN %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.first_child,.second_child{
+    padding: 0.625rem;
+} 
+
+/* --------------------------------Second div--------------------------------------------------------- */
+.second_child{
+    background-color: white;
+    padding: 50px 18px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+
+
+.header h3{
+    font-family:' western monotype corvisa' ;
+    font-weight: bolder;
+}
+.header p{
+    font-family:'monotype corsiva'  ;
+    font-weight: bolder;
+    font-size:2.7vh ;
+    margin-bottom: 19px;
+}
+
+.form{
+    position: relative;
+}
+
+
+.username input[type=text],
+ .password input[type=password],
+  .password input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 6px 0;
+        display: inline-block;
+        border: none;
+        outline: none;
+        border-style: none none solid  none;
+        border-width: 2px;
+        cursor: pointer;
+      }
+
+
+.checkbox input[type=checkbox]{
+    padding: 12px 20px;
+    display: inline;
+}
+.checkbox p{
+    
+    display: inline;
+    margin: 3px;
+}
+
+.submit button {
+    width: 100%;
+    background-color: #ff0000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.submit button:hover {
+    background-color: #a04845;
+    border-radius: 18px;
+}
+
+.eye_icon{
+    position: absolute;
+    top:45%;
+    right: 3%;
+    cursor: pointer;
+}
+.bot, .checkbox p{
+    font-size:0.9rem ;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SIGN UP %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+#header_content{
+    padding: 10px 8px;
+    margin: 3px ;
+}
+#header_content h2{
+    display: grid;
+    position: absolute;
+    top:7% ;
+    left: 7%;
+}
+
+#body_content{
+    display: grid;
+    width: 40%;
+    /* border: 2px solid blue; */
+    box-shadow: 0  1px 4px rgb(66, 66, 66) ;
+    border-radius: 13px;
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: #EADEDB;
+    padding: 18px;
+    margin-top: 10px;
+}
+
+
+.signup_header h1{
+    font-family:' western monotype corvisa' ;
+    font-weight: bolder;
+}
+.signup_header p{
+    font-family:'monotype corsiva'  ;
+    font-weight: bolder;
+    font-size:2.7vh;
+    margin-bottom: 25px;
+}
+
+
+.signup_username input[type=text], 
+.signup_password input[type=password], 
+.signup_password input[type=text], 
+.signup_email input[type=email],
+.referal input[type=text],
+.signup_surname input[type=text],
+.signup_othername input[type=text],
+.signup_phone input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-bottom: solid;
+    border-width: 1px;
+    cursor: pointer;
+  }
+
+.cont{display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 12px;
+    }
+   
+   
+.sign_username_icon{
+        position: absolute;
+        top:44%;
+    }
+.referal_icon{
+    position: absolute;
+    top:4%;
+
+}
+
+.email_icon{
+    position: absolute;
+    top:17.5%;
+
+}
+.surname_icon{
+    position: absolute;
+    top:30%;
+}
+.othername_icon{
+    position: absolute;
+    top:30%;
+}
+.phone_icon{
+    position: absolute;
+    top:45%;
+}
+.signpassword_icon{
+    position: absolute;
+    top:57%;
+}
+.conpassword_icon{
+    position: absolute;
+    top:70%;
+}
+    .eye-icon{
+        position: absolute;
+        top:57%;
+        right: 3%;
+        cursor: pointer;
+    }
+    
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Media Query for Sign In %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */

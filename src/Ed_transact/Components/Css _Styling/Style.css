@@ -1,0 +1,177 @@
+*{  padding: 0;
+    margin: 0;
+    /* overflow-y: hidden; */
+}
+
+#container, html{
+    /* position: relative; */
+    background-color:#808080;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+ 
+
+}
+div.main{
+    display: grid;
+    grid-template-columns:4fr 2fr;
+    justify-content: center;
+    /* align-items: center; */
+    /* grid-gap: 1em; */
+    background-color: #f0f8ff;
+    /* margin:auto; */
+    width: 90%;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    /* top: 50%; */
+    transform: translate(-50%);
+}
+
+div.first_div, div.second_div{
+    padding: 10px;
+    /* border-radius: 20px; */
+    
+}
+
+div.first_div{
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    padding: 50px;
+    position: relative;
+    
+}
+
+.first_div h1{
+    position: absolute;
+    top: 14%;
+    right:53% ;
+}
+
+.main_content{
+    margin:40px;
+}
+
+.main_content h2{
+    text-align: center;
+}
+
+div.icons{
+    margin-top: 30px;
+}
+
+
+.facebook_icon, .twitter_icon, .linked_icon{
+    padding: 20px 8px
+}
+
+
+
+
+
+
+
+
+
+
+div.second_div{
+    /* background-color: #808080; */
+    background-color: #ffffff;
+    padding: 50px 18px;
+}
+
+/* #header{
+    font-family:'monotype corsiva ' ;
+    font-weight: bolder;
+    /* font-size:1.1wh ; */
+     */
+
+
+#header h3{
+    font-family:' western monotype corvisa' ;
+    font-weight: bolder;
+}
+#header p{
+    font-family:'monotype corsiva'  ;
+    font-weight: bolder;
+    font-size:2.9vh ;
+    margin-bottom: 19px;
+}
+
+#form{
+    position: relative;
+}
+
+
+ .username input[type=text], .password input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 6px 0;
+        display: inline-block;
+        border: none;
+        outline: none;
+        border-style: none none solid  none;
+        border-width: 2px;
+        cursor: pointer;
+        /* border-radius: 6px; */
+        /* box-sizing: border-box; */
+      }
+.username_icon{
+    position: absolute;
+    top:15%;  
+
+}
+
+.password_icon{
+    position: absolute;
+    top:45%;
+}
+
+.checkbox input[type=checkbox]{
+    padding: 12px 20px;
+    display: inline;
+}
+.checkbox p{
+    
+    display: inline;
+    /* font-size: 2.5vh; */
+    margin: 3px;
+}
+
+.submit button {
+    width: 100%;
+    background-color: #ff0000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.submit button:hover {
+    background-color: #a04845;
+    border-radius: 18px;
+    font-family:'monotype corsiva';
+    font-size: medium;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    left: 23%;
+}
+
+    
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    border: 2px solid blue;
+}
